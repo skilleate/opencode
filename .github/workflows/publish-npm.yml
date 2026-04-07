@@ -10,7 +10,7 @@ on:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, gh-runner-01]
     permissions:
       contents: read
       packages: write
